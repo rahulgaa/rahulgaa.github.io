@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node3">
+  <panorama id="node3">
+    <input leveltileurl="tiles/0055/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" leveltilesize="510" width="900" levelingpitch="0" levelbias="0.400" height="900" levelingroll="0">
+      <level preload="0" width="900" predecode="0" height="900"/>
+      <level preload="1" width="450" predecode="1" height="450"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="www.mastersinteractive.com" tags="hotels" source="" longitude="" comment="" latitude="" info="" author="before checkin." description="Expore Hotel Rooms online" title="VR Tour For Hotel" copyright="Masters Interactive Pvt. Ltd."/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" border="1" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" height="20" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0"/>
+      <hotspot id="Point01" skinid="Entry" url="{node2}" pan="0.67" tilt="1.56" target="-5.76901/-0.622291/70" description="" title="Hotel Entry"/>
+    </hotspots>
+    <media>
+      <sound loop="0" id="_background" ambientlevel="0.000" tiltsize="10.000" pan="-1.000" tilt="-1.000" level="1.000" mode="0" pansize="10.000" field="90.000">
+        <source url="media/Hotel California.mp3"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" enabled="1" softedge="0" zoomfov="20" zoomout="0" zoomin="0" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" startloaded="0" noderandom="0" useanimation="0" nodedelay="40.00" speed="0.150" delay="3.00"/>
+    <control sensitivity="8" hideabout="0" contextfullscreen="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltileurl="tiles/DV_Restaurant_front/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" leveltilesize="510" width="1024" levelingpitch="0" levelbias="0.400" height="1024" levelingroll="0">
+      <level preload="0" width="1024" predecode="0" height="1024"/>
+      <level preload="0" width="512" predecode="0" height="512"/>
+      <level preload="1" width="256" predecode="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="www.mastersinteractive.com" tags="hotels" source="" longitude="" comment="" latitude="" info="" author="before checkin." description="Expore Hotel Rooms online" title="VR Tour For Hotel" copyright="Masters Interactive Pvt. Ltd."/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" border="1" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" height="20" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0"/>
+      <hotspot id="Point01" skinid="Room" url="{node1}" pan="170.9" tilt="24.71" target="0.441784/-2.52038/70" description="" title="Deluxe Room"/>
+      <hotspot id="Point03" skinid="Delux Suit" url="{node4}" pan="176.69" tilt="-8.12" target="54.1453/-11.498/70" description="" title="Super Deluxe Suit"/>
+      <hotspot id="Point04" skinid="Entry" url="{node3}" pan="-151.36" tilt="-12.37" target="-75.3168/3.30234/70" description="" title="Exit Hotel"/>
+    </hotspots>
+    <media>
+      <image clickmode="0" roty="0.000" id="Element01" fov="26.709" stretch="1.000" handcursor="0" pan="166.120" width="655" rotz="-11.000" tilt="-89.160" height="638" rotx="0.000">
+        <source url="media/MI Logo-logo 1 jpg.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" enabled="1" softedge="0" zoomfov="20" zoomout="0" zoomin="0" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" startloaded="0" noderandom="0" useanimation="0" nodedelay="40.00" speed="0.150" delay="3.00"/>
+    <control sensitivity="8" hideabout="0" contextfullscreen="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input leveltileurl="tiles/3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" leveltilesize="510" width="500" levelingpitch="0" levelbias="0.400" height="500" levelingroll="0">
+      <level preload="1" width="500" predecode="1" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="www.mastersinteractive.com" tags="hotels" source="" longitude="" comment="" latitude="" info="" author="before checkin." description="Expore Hotel Rooms online" title="VR Tour For Hotel" copyright="Masters Interactive Pvt. Ltd."/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" border="1" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" height="20" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0"/>
+      <hotspot id="Point01" skinid="Restaurant" url="{node2}" pan="48.76" tilt="-2.43" target="0/0/70" description="" title="Restaurant"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" enabled="1" softedge="0" zoomfov="20" zoomout="0" zoomin="0" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" startloaded="0" noderandom="0" useanimation="0" nodedelay="40.00" speed="0.150" delay="3.00"/>
+    <control sensitivity="8" hideabout="0" contextfullscreen="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input leveltileurl="tiles/Bedroom_Spherical360_image_CC/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbiashidpi="0.400" leveltilesize="510" width="1344" levelingpitch="0" levelbias="0.400" height="1344" levelingroll="0">
+      <level preload="0" width="1344" predecode="0" height="1344"/>
+      <level preload="0" width="672" predecode="0" height="672"/>
+      <level preload="1" width="336" predecode="1" height="336"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" pan="360" tilt="90"/>
+    </view>
+    <userdata datetime="www.mastersinteractive.com" tags="hotels" source="" longitude="" comment="" latitude="" info="" author="before checkin." description="Expore Hotel Rooms online" title="VR Tour For Hotel" copyright="Masters Interactive Pvt. Ltd."/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" border="1" width="180" textcolor="0x000000" borderalpha="1" enabled="1" backgroundalpha="1" textalpha="1" height="20" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0"/>
+      <hotspot id="Point02" skinid="Restaurant" url="{node2}" pan="-148.51" tilt="-3.54" target="-3.48408/0.0171572/70" description="" title="Restaurant"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" blendtime="1" zoomoutpause="1" zoomspeed="2" enabled="1" softedge="0" zoomfov="20" zoomout="0" zoomin="0" blendcolor="0x000000"/>
+    <autorotate returntohorizon="0.000" startloaded="0" noderandom="0" useanimation="0" nodedelay="40.00" speed="0.150" delay="3.00"/>
+    <control sensitivity="8" hideabout="0" contextfullscreen="0" dblclickfullscreen="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboard="0" simulatemass="1" invertwheel="0"/>
+  </panorama>
+</tour>
